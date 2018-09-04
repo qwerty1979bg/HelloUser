@@ -2,7 +2,7 @@
 
 out=$(bash hello.sh user)
 
-  if [ "$out" == "useR" ]; then
+  if [ "$out" == "user" ]; then
     echo good
   else
     echo Bad
